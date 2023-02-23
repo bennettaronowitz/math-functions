@@ -23,9 +23,6 @@ def get_primes_below(limit):
 			primes.append(number)
 	return primes
 	
-print(get_primes_below(999))
-	
-'''	
 base = 5
 for i in range(-10,101):
 	print(f"{base} ^ {i} = {exponentiate(base, i)}")
@@ -35,10 +32,6 @@ for i in range(1,87):
 			
 for i in range(-5,6):
 	print(f"|{i}| = {absolute_value(i)}")
-		
-b = subtract_three(3)
-print(f"The value of b is {b}")
-	
-a = add_seven(10)
-print(f"The value of a is {a}")
-'''
+
+print(get_primes_below(999))
+
